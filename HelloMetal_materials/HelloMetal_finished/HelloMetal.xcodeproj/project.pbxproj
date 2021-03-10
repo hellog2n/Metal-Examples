@@ -10,6 +10,8 @@
 		4374F560213C0EC0006ABEA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4374F55F213C0EC0006ABEA0 /* ViewController.swift */; };
 		43E46CE6213C0F88002741D2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 43E46CE5213C0F88002741D2 /* Shaders.metal */; };
 		58841D4A25F77EE7007AA068 /* VideoCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58841D4925F77EE7007AA068 /* VideoCapture.swift */; };
+		58841D4E25F873DD007AA068 /* MetalCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58841D4D25F873DD007AA068 /* MetalCameraViewController.swift */; };
+		58841D5125F87446007AA068 /* SetUpViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58841D5025F87446007AA068 /* SetUpViews.swift */; };
 		5C2901831F8F6DE700803663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */; };
 		D2A5F2091F4A9144005CD714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F2071F4A9144005CD714 /* Main.storyboard */; };
 		D2A5F20B1F4A9144005CD714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2A5F20A1F4A9144005CD714 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 		4374F55F213C0EC0006ABEA0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43E46CE5213C0F88002741D2 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		58841D4925F77EE7007AA068 /* VideoCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCapture.swift; sourceTree = "<group>"; };
+		58841D4D25F873DD007AA068 /* MetalCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalCameraViewController.swift; sourceTree = "<group>"; };
+		58841D5025F87446007AA068 /* SetUpViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpViews.swift; sourceTree = "<group>"; };
 		5C2901821F8F6DE700803663 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2A5F2001F4A9144005CD714 /* HelloMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2A5F2081F4A9144005CD714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +43,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58841D4C25F873C7007AA068 /* MetalCamera */ = {
+			isa = PBXGroup;
+			children = (
+				58841D4D25F873DD007AA068 /* MetalCameraViewController.swift */,
+				58841D5025F87446007AA068 /* SetUpViews.swift */,
+			);
+			path = MetalCamera;
+			sourceTree = "<group>";
+		};
 		D2A5F1F71F4A9143005CD714 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +73,7 @@
 		D2A5F2021F4A9144005CD714 /* HelloMetal */ = {
 			isa = PBXGroup;
 			children = (
+				58841D4C25F873C7007AA068 /* MetalCamera */,
 				43E46CE5213C0F88002741D2 /* Shaders.metal */,
 				D2A5F2201F4A96D0005CD714 /* AppDelegate.swift */,
 				4374F55F213C0EC0006ABEA0 /* ViewController.swift */,
@@ -146,6 +160,8 @@
 			files = (
 				58841D4A25F77EE7007AA068 /* VideoCapture.swift in Sources */,
 				43E46CE6213C0F88002741D2 /* Shaders.metal in Sources */,
+				58841D5125F87446007AA068 /* SetUpViews.swift in Sources */,
+				58841D4E25F873DD007AA068 /* MetalCameraViewController.swift in Sources */,
 				4374F560213C0EC0006ABEA0 /* ViewController.swift in Sources */,
 				D2A5F2211F4A96D0005CD714 /* AppDelegate.swift in Sources */,
 			);
